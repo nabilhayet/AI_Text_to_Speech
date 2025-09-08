@@ -1,0 +1,41 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #eee;
+    height: 100vh;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: 200px;
+    margin-right: 200px;
+}
+
+h2,
+h4 {
+    text-align: center
+}
+
+div #options {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 2rem 9%;
+}
+
+div #output {
+    display: flex;
+    align-items: center;
+    padding: 2rem 9%;
+    font-size: 1.0rem;
+    font-weight: bold;
+}
+
+textarea {
+    margin-left: 100px;
+}
+
+label {
+    font-size: 1.5rem;
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
