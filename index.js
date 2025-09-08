@@ -1,4 +1,6 @@
-let letters = {
+let letters = new Map()
+
+letters = {
     q: [4, 2],
     w: [4, 3],
     e: [4, 4],

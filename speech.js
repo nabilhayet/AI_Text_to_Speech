@@ -1,3 +1,4 @@
+require('dotenv').config();
 const startButton = document.getElementById('startButton');
 const stopButton = document.getElementById('pauseButton');
 const outputDiv = document.getElementById('output');
